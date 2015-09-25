@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425039C31BB5695D004D141A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425039C21BB5695D004D141A /* main.m */; };
+		425039C61BB5695D004D141A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 425039C51BB5695D004D141A /* AppDelegate.m */; };
+		425039C91BB5695D004D141A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425039C81BB5695D004D141A /* ViewController.m */; };
+		425039CC1BB5695D004D141A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425039CA1BB5695D004D141A /* Main.storyboard */; };
+		425039CE1BB5695D004D141A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425039CD1BB5695D004D141A /* Assets.xcassets */; };
+		425039D11BB5695D004D141A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425039CF1BB5695D004D141A /* LaunchScreen.storyboard */; };
+		425039DC1BB5695D004D141A /* leiautoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425039DB1BB5695D004D141A /* leiautoTests.m */; };
+		425039E71BB5695D004D141A /* leiautoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425039E61BB5695D004D141A /* leiautoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		425039D81BB5695D004D141A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 425039B61BB5695D004D141A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 425039BD1BB5695D004D141A;
+			remoteInfo = leiauto;
+		};
+		425039E31BB5695D004D141A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 425039B61BB5695D004D141A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 425039BD1BB5695D004D141A;
+			remoteInfo = leiauto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		425039BE1BB5695D004D141A /* leiauto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leiauto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425039C21BB5695D004D141A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425039C41BB5695D004D141A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		425039C51BB5695D004D141A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		425039C71BB5695D004D141A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		425039C81BB5695D004D141A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		425039CB1BB5695D004D141A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		425039CD1BB5695D004D141A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		425039D01BB5695D004D141A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		425039D21BB5695D004D141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425039D71BB5695D004D141A /* leiautoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leiautoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		425039DB1BB5695D004D141A /* leiautoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leiautoTests.m; sourceTree = "<group>"; };
+		425039DD1BB5695D004D141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425039E21BB5695D004D141A /* leiautoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leiautoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		425039E61BB5695D004D141A /* leiautoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leiautoUITests.m; sourceTree = "<group>"; };
+		425039E81BB5695D004D141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425039BB1BB5695D004D141A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425039D41BB5695D004D141A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425039DF1BB5695D004D141A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425039B51BB5695D004D141A = {
+			isa = PBXGroup;
+			children = (
+				425039C01BB5695D004D141A /* leiauto */,
+				425039DA1BB5695D004D141A /* leiautoTests */,
+				425039E51BB5695D004D141A /* leiautoUITests */,
+				425039BF1BB5695D004D141A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425039BF1BB5695D004D141A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425039BE1BB5695D004D141A /* leiauto.app */,
+				425039D71BB5695D004D141A /* leiautoTests.xctest */,
+				425039E21BB5695D004D141A /* leiautoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425039C01BB5695D004D141A /* leiauto */ = {
+			isa = PBXGroup;
+			children = (
+				425039C41BB5695D004D141A /* AppDelegate.h */,
+				425039C51BB5695D004D141A /* AppDelegate.m */,
+				425039C71BB5695D004D141A /* ViewController.h */,
+				425039C81BB5695D004D141A /* ViewController.m */,
+				425039CA1BB5695D004D141A /* Main.storyboard */,
+				425039CD1BB5695D004D141A /* Assets.xcassets */,
+				425039CF1BB5695D004D141A /* LaunchScreen.storyboard */,
+				425039D21BB5695D004D141A /* Info.plist */,
+				425039C11BB5695D004D141A /* Supporting Files */,
+			);
+			path = leiauto;
+			sourceTree = "<group>";
+		};
+		425039C11BB5695D004D141A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425039C21BB5695D004D141A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		425039DA1BB5695D004D141A /* leiautoTests */ = {
+			isa = PBXGroup;
+			children = (
+				425039DB1BB5695D004D141A /* leiautoTests.m */,
+				425039DD1BB5695D004D141A /* Info.plist */,
+			);
+			path = leiautoTests;
+			sourceTree = "<group>";
+		};
+		425039E51BB5695D004D141A /* leiautoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				425039E61BB5695D004D141A /* leiautoUITests.m */,
+				425039E81BB5695D004D141A /* Info.plist */,
+			);
+			path = leiautoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425039BD1BB5695D004D141A /* leiauto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425039EB1BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiauto" */;
+			buildPhases = (
+				425039BA1BB5695D004D141A /* Sources */,
+				425039BB1BB5695D004D141A /* Frameworks */,
+				425039BC1BB5695D004D141A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leiauto;
+			productName = leiauto;
+			productReference = 425039BE1BB5695D004D141A /* leiauto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		425039D61BB5695D004D141A /* leiautoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425039EE1BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiautoTests" */;
+			buildPhases = (
+				425039D31BB5695D004D141A /* Sources */,
+				425039D41BB5695D004D141A /* Frameworks */,
+				425039D51BB5695D004D141A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425039D91BB5695D004D141A /* PBXTargetDependency */,
+			);
+			name = leiautoTests;
+			productName = leiautoTests;
+			productReference = 425039D71BB5695D004D141A /* leiautoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		425039E11BB5695D004D141A /* leiautoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425039F11BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiautoUITests" */;
+			buildPhases = (
+				425039DE1BB5695D004D141A /* Sources */,
+				425039DF1BB5695D004D141A /* Frameworks */,
+				425039E01BB5695D004D141A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425039E41BB5695D004D141A /* PBXTargetDependency */,
+			);
+			name = leiautoUITests;
+			productName = leiautoUITests;
+			productReference = 425039E21BB5695D004D141A /* leiautoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425039B61BB5695D004D141A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MAEDAHAJIME;
+				TargetAttributes = {
+					425039BD1BB5695D004D141A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					425039D61BB5695D004D141A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 425039BD1BB5695D004D141A;
+					};
+					425039E11BB5695D004D141A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 425039BD1BB5695D004D141A;
+					};
+				};
+			};
+			buildConfigurationList = 425039B91BB5695D004D141A /* Build configuration list for PBXProject "leiauto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425039B51BB5695D004D141A;
+			productRefGroup = 425039BF1BB5695D004D141A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425039BD1BB5695D004D141A /* leiauto */,
+				425039D61BB5695D004D141A /* leiautoTests */,
+				425039E11BB5695D004D141A /* leiautoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425039BC1BB5695D004D141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425039D11BB5695D004D141A /* LaunchScreen.storyboard in Resources */,
+				425039CE1BB5695D004D141A /* Assets.xcassets in Resources */,
+				425039CC1BB5695D004D141A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425039D51BB5695D004D141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425039E01BB5695D004D141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425039BA1BB5695D004D141A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425039C91BB5695D004D141A /* ViewController.m in Sources */,
+				425039C61BB5695D004D141A /* AppDelegate.m in Sources */,
+				425039C31BB5695D004D141A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425039D31BB5695D004D141A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425039DC1BB5695D004D141A /* leiautoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425039DE1BB5695D004D141A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425039E71BB5695D004D141A /* leiautoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		425039D91BB5695D004D141A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 425039BD1BB5695D004D141A /* leiauto */;
+			targetProxy = 425039D81BB5695D004D141A /* PBXContainerItemProxy */;
+		};
+		425039E41BB5695D004D141A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 425039BD1BB5695D004D141A /* leiauto */;
+			targetProxy = 425039E31BB5695D004D141A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		425039CA1BB5695D004D141A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425039CB1BB5695D004D141A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		425039CF1BB5695D004D141A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425039D01BB5695D004D141A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425039E91BB5695D004D141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		425039EA1BB5695D004D141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		425039EC1BB5695D004D141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leiauto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iScene.leiauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		425039ED1BB5695D004D141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leiauto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iScene.leiauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		425039EF1BB5695D004D141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leiautoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iScene.leiautoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leiauto.app/leiauto";
+			};
+			name = Debug;
+		};
+		425039F01BB5695D004D141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leiautoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iScene.leiautoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leiauto.app/leiauto";
+			};
+			name = Release;
+		};
+		425039F21BB5695D004D141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leiautoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iScene.leiautoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leiauto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		425039F31BB5695D004D141A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leiautoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iScene.leiautoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leiauto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425039B91BB5695D004D141A /* Build configuration list for PBXProject "leiauto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425039E91BB5695D004D141A /* Debug */,
+				425039EA1BB5695D004D141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425039EB1BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiauto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425039EC1BB5695D004D141A /* Debug */,
+				425039ED1BB5695D004D141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		425039EE1BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiautoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425039EF1BB5695D004D141A /* Debug */,
+				425039F01BB5695D004D141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		425039F11BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiautoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425039F21BB5695D004D141A /* Debug */,
+				425039F31BB5695D004D141A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 425039B61BB5695D004D141A /* Project object */;
+}
