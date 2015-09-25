@@ -15,6 +15,16 @@
 		425039D11BB5695D004D141A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425039CF1BB5695D004D141A /* LaunchScreen.storyboard */; };
 		425039DC1BB5695D004D141A /* leiautoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425039DB1BB5695D004D141A /* leiautoTests.m */; };
 		425039E71BB5695D004D141A /* leiautoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425039E61BB5695D004D141A /* leiautoUITests.m */; };
+		425039FB1BB5885F004D141A /* time110@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425039F41BB5885F004D141A /* time110@2x.png */; settings = {ASSET_TAGS = (); }; };
+		425039FC1BB5885F004D141A /* time1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425039F51BB5885F004D141A /* time1@2x.png */; settings = {ASSET_TAGS = (); }; };
+		425039FD1BB5885F004D141A /* time2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425039F61BB5885F004D141A /* time2@2x.png */; settings = {ASSET_TAGS = (); }; };
+		425039FE1BB5885F004D141A /* time3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425039F71BB5885F004D141A /* time3@2x.png */; settings = {ASSET_TAGS = (); }; };
+		425039FF1BB5885F004D141A /* time4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425039F81BB5885F004D141A /* time4@2x.png */; settings = {ASSET_TAGS = (); }; };
+		42503A001BB5885F004D141A /* time5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425039F91BB5885F004D141A /* time5@2x.png */; settings = {ASSET_TAGS = (); }; };
+		42503A011BB5885F004D141A /* time10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 425039FA1BB5885F004D141A /* time10@2x.png */; settings = {ASSET_TAGS = (); }; };
+		42503A041BB58D83004D141A /* top02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42503A031BB58D83004D141A /* top02ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		42EB60851BB5F02600567129 /* myStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB60841BB5F02600567129 /* myStoryboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		42EB60881BB5F24200567129 /* top03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EB60871BB5F24200567129 /* top03ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,18 @@
 		425039E21BB5695D004D141A /* leiautoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leiautoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		425039E61BB5695D004D141A /* leiautoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leiautoUITests.m; sourceTree = "<group>"; };
 		425039E81BB5695D004D141A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425039F41BB5885F004D141A /* time110@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time110@2x.png"; sourceTree = "<group>"; };
+		425039F51BB5885F004D141A /* time1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time1@2x.png"; sourceTree = "<group>"; };
+		425039F61BB5885F004D141A /* time2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time2@2x.png"; sourceTree = "<group>"; };
+		425039F71BB5885F004D141A /* time3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time3@2x.png"; sourceTree = "<group>"; };
+		425039F81BB5885F004D141A /* time4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time4@2x.png"; sourceTree = "<group>"; };
+		425039F91BB5885F004D141A /* time5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time5@2x.png"; sourceTree = "<group>"; };
+		425039FA1BB5885F004D141A /* time10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time10@2x.png"; sourceTree = "<group>"; };
+		42503A021BB58D83004D141A /* top02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = top02ViewController.h; sourceTree = "<group>"; };
+		42503A031BB58D83004D141A /* top02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = top02ViewController.m; sourceTree = "<group>"; };
+		42EB60841BB5F02600567129 /* myStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = myStoryboard.storyboard; path = ../myStoryboard.storyboard; sourceTree = "<group>"; };
+		42EB60861BB5F24200567129 /* top03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = top03ViewController.h; sourceTree = "<group>"; };
+		42EB60871BB5F24200567129 /* top03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = top03ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +127,12 @@
 				425039C51BB5695D004D141A /* AppDelegate.m */,
 				425039C71BB5695D004D141A /* ViewController.h */,
 				425039C81BB5695D004D141A /* ViewController.m */,
+				42503A021BB58D83004D141A /* top02ViewController.h */,
+				42503A031BB58D83004D141A /* top02ViewController.m */,
+				42EB60861BB5F24200567129 /* top03ViewController.h */,
+				42EB60871BB5F24200567129 /* top03ViewController.m */,
 				425039CA1BB5695D004D141A /* Main.storyboard */,
+				42EB60841BB5F02600567129 /* myStoryboard.storyboard */,
 				425039CD1BB5695D004D141A /* Assets.xcassets */,
 				425039CF1BB5695D004D141A /* LaunchScreen.storyboard */,
 				425039D21BB5695D004D141A /* Info.plist */,
@@ -117,6 +144,13 @@
 		425039C11BB5695D004D141A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				425039F41BB5885F004D141A /* time110@2x.png */,
+				425039F51BB5885F004D141A /* time1@2x.png */,
+				425039F61BB5885F004D141A /* time2@2x.png */,
+				425039F71BB5885F004D141A /* time3@2x.png */,
+				425039F81BB5885F004D141A /* time4@2x.png */,
+				425039F91BB5885F004D141A /* time5@2x.png */,
+				425039FA1BB5885F004D141A /* time10@2x.png */,
 				425039C21BB5695D004D141A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,8 +277,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42503A001BB5885F004D141A /* time5@2x.png in Resources */,
+				425039FE1BB5885F004D141A /* time3@2x.png in Resources */,
+				425039FC1BB5885F004D141A /* time1@2x.png in Resources */,
+				425039FB1BB5885F004D141A /* time110@2x.png in Resources */,
+				42503A011BB5885F004D141A /* time10@2x.png in Resources */,
+				42EB60851BB5F02600567129 /* myStoryboard.storyboard in Resources */,
 				425039D11BB5695D004D141A /* LaunchScreen.storyboard in Resources */,
+				425039FF1BB5885F004D141A /* time4@2x.png in Resources */,
 				425039CE1BB5695D004D141A /* Assets.xcassets in Resources */,
+				425039FD1BB5885F004D141A /* time2@2x.png in Resources */,
 				425039CC1BB5695D004D141A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42503A041BB58D83004D141A /* top02ViewController.m in Sources */,
 				425039C91BB5695D004D141A /* ViewController.m in Sources */,
+				42EB60881BB5F24200567129 /* top03ViewController.m in Sources */,
 				425039C61BB5695D004D141A /* AppDelegate.m in Sources */,
 				425039C31BB5695D004D141A /* main.m in Sources */,
 			);
@@ -496,6 +540,7 @@
 				425039ED1BB5695D004D141A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		425039EE1BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiautoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +549,7 @@
 				425039F01BB5695D004D141A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		425039F11BB5695D004D141A /* Build configuration list for PBXNativeTarget "leiautoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +558,7 @@
 				425039F31BB5695D004D141A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
